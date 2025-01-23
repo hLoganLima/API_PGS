@@ -1,0 +1,18 @@
+[
+    {
+        "id_contrato": 666,
+        "id_siger_cliente": 6969,
+        "dt_inic_cont": "01/01/2077",
+        "dt_vig_inic": "01/01/2077",
+        "dt_vig_final": "01/01/2077",
+        "deletado": false
+    },
+    {
+        "id_contrato": 2000,
+        "id_siger_cliente": 232323,
+        "dt_inic_cont": "09/02/2024",
+        "dt_vig_inic": "29/02/2024",
+        "dt_vig_final": "09/02/2028",
+        "deletado": false
+    }
+]

@@ -1,0 +1,2018 @@
+[
+    {
+        "id_contrato": 1,
+        "id_siger_cliente": 605,
+        "dt_inic_cont": "23/04/2020",
+        "dt_vig_inic": "23/11/2018",
+        "dt_vig_final": "15/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 3,
+        "id_siger_cliente": 604,
+        "dt_inic_cont": "23/04/2020",
+        "dt_vig_inic": "23/11/2018",
+        "dt_vig_final": "15/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 6,
+        "id_siger_cliente": 1064,
+        "dt_inic_cont": "23/04/2020",
+        "dt_vig_inic": "12/04/2019",
+        "dt_vig_final": "11/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 9,
+        "id_siger_cliente": 1237,
+        "dt_inic_cont": "09/06/2020",
+        "dt_vig_inic": "05/05/2020",
+        "dt_vig_final": "04/05/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 10,
+        "id_siger_cliente": 503,
+        "dt_inic_cont": "16/09/2020",
+        "dt_vig_inic": "29/10/2020",
+        "dt_vig_final": "29/10/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 11,
+        "id_siger_cliente": 1644,
+        "dt_inic_cont": "22/09/2020",
+        "dt_vig_inic": "02/08/2020",
+        "dt_vig_final": "02/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 12,
+        "id_siger_cliente": 102,
+        "dt_inic_cont": "07/11/2020",
+        "dt_vig_inic": "01/05/2019",
+        "dt_vig_final": "30/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 17,
+        "id_siger_cliente": 503,
+        "dt_inic_cont": "25/11/2020",
+        "dt_vig_inic": "15/12/2020",
+        "dt_vig_final": "24/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 18,
+        "id_siger_cliente": 2393,
+        "dt_inic_cont": "25/11/2020",
+        "dt_vig_inic": "15/11/2020",
+        "dt_vig_final": "27/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 22,
+        "id_siger_cliente": 2470,
+        "dt_inic_cont": "29/01/2021",
+        "dt_vig_inic": "27/01/2021",
+        "dt_vig_final": "26/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 23,
+        "id_siger_cliente": 102,
+        "dt_inic_cont": "03/02/2021",
+        "dt_vig_inic": "01/02/2021",
+        "dt_vig_final": "03/02/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 24,
+        "id_siger_cliente": 503,
+        "dt_inic_cont": "12/03/2021",
+        "dt_vig_inic": "01/03/2021",
+        "dt_vig_final": "11/03/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 26,
+        "id_siger_cliente": 2785,
+        "dt_inic_cont": "03/05/2021",
+        "dt_vig_inic": "01/05/2021",
+        "dt_vig_final": "04/05/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 27,
+        "id_siger_cliente": 503,
+        "dt_inic_cont": "17/06/2021",
+        "dt_vig_inic": "01/06/2021",
+        "dt_vig_final": "24/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 28,
+        "id_siger_cliente": 2857,
+        "dt_inic_cont": "25/06/2021",
+        "dt_vig_inic": "01/06/2021",
+        "dt_vig_final": "25/06/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 29,
+        "id_siger_cliente": 3040,
+        "dt_inic_cont": "17/08/2021",
+        "dt_vig_inic": "01/09/2021",
+        "dt_vig_final": "24/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 31,
+        "id_siger_cliente": 2210,
+        "dt_inic_cont": "03/11/2021",
+        "dt_vig_inic": "07/02/2022",
+        "dt_vig_final": "06/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 32,
+        "id_siger_cliente": 3364,
+        "dt_inic_cont": "28/01/2022",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "18/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 33,
+        "id_siger_cliente": 3359,
+        "dt_inic_cont": "04/02/2022",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "13/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 34,
+        "id_siger_cliente": 3351,
+        "dt_inic_cont": "04/02/2022",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "06/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 35,
+        "id_siger_cliente": 3386,
+        "dt_inic_cont": "01/03/2022",
+        "dt_vig_inic": "01/02/2022",
+        "dt_vig_final": "11/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 38,
+        "id_siger_cliente": 293,
+        "dt_inic_cont": "04/05/2022",
+        "dt_vig_inic": "15/04/2022",
+        "dt_vig_final": "20/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 39,
+        "id_siger_cliente": 11,
+        "dt_inic_cont": "04/05/2022",
+        "dt_vig_inic": "01/04/2022",
+        "dt_vig_final": "07/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 40,
+        "id_siger_cliente": 10,
+        "dt_inic_cont": "04/05/2022",
+        "dt_vig_inic": "01/04/2022",
+        "dt_vig_final": "07/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 41,
+        "id_siger_cliente": 241,
+        "dt_inic_cont": "12/05/2022",
+        "dt_vig_inic": "01/06/2022",
+        "dt_vig_final": "30/05/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 42,
+        "id_siger_cliente": 503,
+        "dt_inic_cont": "27/05/2022",
+        "dt_vig_inic": "01/06/2022",
+        "dt_vig_final": "30/05/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 43,
+        "id_siger_cliente": 3678,
+        "dt_inic_cont": "15/07/2022",
+        "dt_vig_inic": "15/07/2022",
+        "dt_vig_final": "14/07/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 44,
+        "id_siger_cliente": 161,
+        "dt_inic_cont": "01/06/2022",
+        "dt_vig_inic": "16/05/2022",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 47,
+        "id_siger_cliente": 2489,
+        "dt_inic_cont": "14/06/2022",
+        "dt_vig_inic": "01/07/2022",
+        "dt_vig_final": "01/07/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 49,
+        "id_siger_cliente": 1100,
+        "dt_inic_cont": "05/07/2022",
+        "dt_vig_inic": "01/06/2022",
+        "dt_vig_final": "31/05/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 50,
+        "id_siger_cliente": 3598,
+        "dt_inic_cont": "05/07/2022",
+        "dt_vig_inic": "15/06/2022",
+        "dt_vig_final": "28/09/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 51,
+        "id_siger_cliente": 2092,
+        "dt_inic_cont": "26/07/2022",
+        "dt_vig_inic": "01/07/2022",
+        "dt_vig_final": "27/07/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 53,
+        "id_siger_cliente": 3601,
+        "dt_inic_cont": "02/08/2022",
+        "dt_vig_inic": "01/07/2022",
+        "dt_vig_final": "06/07/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 54,
+        "id_siger_cliente": 2864,
+        "dt_inic_cont": "29/08/2022",
+        "dt_vig_inic": "29/08/2022",
+        "dt_vig_final": "13/09/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 55,
+        "id_siger_cliente": 3724,
+        "dt_inic_cont": "30/08/2022",
+        "dt_vig_inic": "15/09/2022",
+        "dt_vig_final": "23/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 58,
+        "id_siger_cliente": 3695,
+        "dt_inic_cont": "03/11/2022",
+        "dt_vig_inic": "03/11/2022",
+        "dt_vig_final": "03/11/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 61,
+        "id_siger_cliente": 3805,
+        "dt_inic_cont": "08/11/2022",
+        "dt_vig_inic": "15/01/2023",
+        "dt_vig_final": "20/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 63,
+        "id_siger_cliente": 137,
+        "dt_inic_cont": "01/12/2022",
+        "dt_vig_inic": "13/12/2022",
+        "dt_vig_final": "12/12/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 64,
+        "id_siger_cliente": 3879,
+        "dt_inic_cont": "01/12/2022",
+        "dt_vig_inic": "26/10/2022",
+        "dt_vig_final": "25/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 66,
+        "id_siger_cliente": 50,
+        "dt_inic_cont": "06/12/2022",
+        "dt_vig_inic": "09/01/2023",
+        "dt_vig_final": "08/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 67,
+        "id_siger_cliente": 1814,
+        "dt_inic_cont": "06/12/2022",
+        "dt_vig_inic": "15/11/2022",
+        "dt_vig_final": "23/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 69,
+        "id_siger_cliente": 1958,
+        "dt_inic_cont": "08/12/2022",
+        "dt_vig_inic": "08/12/2022",
+        "dt_vig_final": "08/12/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 70,
+        "id_siger_cliente": 3696,
+        "dt_inic_cont": "04/01/2023",
+        "dt_vig_inic": "30/11/2022",
+        "dt_vig_final": "29/11/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 71,
+        "id_siger_cliente": 1042,
+        "dt_inic_cont": "05/01/2023",
+        "dt_vig_inic": "15/12/2022",
+        "dt_vig_final": "15/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 72,
+        "id_siger_cliente": 1042,
+        "dt_inic_cont": "25/01/2023",
+        "dt_vig_inic": "15/01/2023",
+        "dt_vig_final": "25/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 73,
+        "id_siger_cliente": 1044,
+        "dt_inic_cont": "25/01/2023",
+        "dt_vig_inic": "15/01/2023",
+        "dt_vig_final": "25/02/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 75,
+        "id_siger_cliente": 706,
+        "dt_inic_cont": "02/02/2023",
+        "dt_vig_inic": "01/02/2023",
+        "dt_vig_final": "01/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 79,
+        "id_siger_cliente": 898,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2023",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 80,
+        "id_siger_cliente": 580,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "16/09/2019",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 81,
+        "id_siger_cliente": 2798,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "29/11/2021",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 82,
+        "id_siger_cliente": 617,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "23/06/2016",
+        "dt_vig_final": "23/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 84,
+        "id_siger_cliente": 687,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "20/11/2019",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 86,
+        "id_siger_cliente": 666,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "24/11/2017",
+        "dt_vig_final": "24/11/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 87,
+        "id_siger_cliente": 723,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "21/02/2018",
+        "dt_vig_final": "21/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 88,
+        "id_siger_cliente": 1379,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "23/09/2019",
+        "dt_vig_final": "23/09/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 89,
+        "id_siger_cliente": 575,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "13/03/2017",
+        "dt_vig_final": "13/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 90,
+        "id_siger_cliente": 665,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "20/02/2019",
+        "dt_vig_final": "20/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 92,
+        "id_siger_cliente": 1768,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 93,
+        "id_siger_cliente": 498,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 94,
+        "id_siger_cliente": 490,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/10/2020",
+        "dt_vig_final": "01/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 95,
+        "id_siger_cliente": 2263,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/10/2020",
+        "dt_vig_final": "01/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 98,
+        "id_siger_cliente": 515,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "20/03/2018",
+        "dt_vig_final": "20/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 99,
+        "id_siger_cliente": 494,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/02/2020",
+        "dt_vig_final": "10/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 100,
+        "id_siger_cliente": 1838,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/02/2020",
+        "dt_vig_final": "10/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 101,
+        "id_siger_cliente": 3143,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2021",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 102,
+        "id_siger_cliente": 1739,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "13/01/2020",
+        "dt_vig_final": "13/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 103,
+        "id_siger_cliente": 940,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/01/2020",
+        "dt_vig_final": "10/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 104,
+        "id_siger_cliente": 1678,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/01/2020",
+        "dt_vig_final": "10/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 105,
+        "id_siger_cliente": 1734,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/01/2020",
+        "dt_vig_final": "10/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 106,
+        "id_siger_cliente": 1841,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/01/2020",
+        "dt_vig_final": "10/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 107,
+        "id_siger_cliente": 1842,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "10/02/2020",
+        "dt_vig_final": "10/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 109,
+        "id_siger_cliente": 953,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "07/01/2019",
+        "dt_vig_final": "07/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 110,
+        "id_siger_cliente": 74,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "13/03/2017",
+        "dt_vig_final": "13/03/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 111,
+        "id_siger_cliente": 166,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "17/01/2019",
+        "dt_vig_final": "17/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 112,
+        "id_siger_cliente": 896,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "06/12/2018",
+        "dt_vig_final": "06/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 113,
+        "id_siger_cliente": 895,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "11/12/2018",
+        "dt_vig_final": "11/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 114,
+        "id_siger_cliente": 604,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "07/01/2019",
+        "dt_vig_final": "07/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 116,
+        "id_siger_cliente": 2203,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "18/09/2020",
+        "dt_vig_final": "18/09/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 117,
+        "id_siger_cliente": 237,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "16/01/2019",
+        "dt_vig_final": "16/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 119,
+        "id_siger_cliente": 605,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "07/01/2019",
+        "dt_vig_final": "07/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 120,
+        "id_siger_cliente": 1029,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2018",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 121,
+        "id_siger_cliente": 2832,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "11/06/2021",
+        "dt_vig_final": "11/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 122,
+        "id_siger_cliente": 3521,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "14/11/2022",
+        "dt_vig_final": "14/11/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 123,
+        "id_siger_cliente": 2378,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 124,
+        "id_siger_cliente": 1436,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 125,
+        "id_siger_cliente": 3253,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 126,
+        "id_siger_cliente": 3482,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/05/2022",
+        "dt_vig_final": "01/05/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 127,
+        "id_siger_cliente": 590,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "07/11/2022",
+        "dt_vig_final": "07/11/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 128,
+        "id_siger_cliente": 3769,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "11/01/2023",
+        "dt_vig_final": "11/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 129,
+        "id_siger_cliente": 1963,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "11/01/2023",
+        "dt_vig_final": "11/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 130,
+        "id_siger_cliente": 4065,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "11/01/2023",
+        "dt_vig_final": "11/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 131,
+        "id_siger_cliente": 4059,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "23/01/2023",
+        "dt_vig_final": "23/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 132,
+        "id_siger_cliente": 1420,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/03/2022",
+        "dt_vig_final": "01/03/2023",
+        "deletado": false
+    },
+    {
+        "id_contrato": 133,
+        "id_siger_cliente": 3063,
+        "dt_inic_cont": "06/02/2023",
+        "dt_vig_inic": "01/08/2022",
+        "dt_vig_final": "01/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 134,
+        "id_siger_cliente": 1906,
+        "dt_inic_cont": "07/02/2023",
+        "dt_vig_inic": "07/01/2019",
+        "dt_vig_final": "07/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 135,
+        "id_siger_cliente": 1066,
+        "dt_inic_cont": "07/02/2023",
+        "dt_vig_inic": "15/08/2022",
+        "dt_vig_final": "15/08/2023",
+        "deletado": false
+    },
+    {
+        "id_contrato": 137,
+        "id_siger_cliente": 3111,
+        "dt_inic_cont": "10/02/2023",
+        "dt_vig_inic": "01/01/2022",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 138,
+        "id_siger_cliente": 137,
+        "dt_inic_cont": "17/02/2023",
+        "dt_vig_inic": "06/01/2023",
+        "dt_vig_final": "05/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 139,
+        "id_siger_cliente": 310,
+        "dt_inic_cont": "17/02/2023",
+        "dt_vig_inic": "20/01/2023",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 140,
+        "id_siger_cliente": 7,
+        "dt_inic_cont": "21/02/2023",
+        "dt_vig_inic": "31/01/2023",
+        "dt_vig_final": "30/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 141,
+        "id_siger_cliente": 3411,
+        "dt_inic_cont": "05/04/2023",
+        "dt_vig_inic": "15/03/2023",
+        "dt_vig_final": "28/03/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 142,
+        "id_siger_cliente": 1938,
+        "dt_inic_cont": "06/04/2023",
+        "dt_vig_inic": "01/04/2023",
+        "dt_vig_final": "05/04/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 143,
+        "id_siger_cliente": 4271,
+        "dt_inic_cont": "10/04/2023",
+        "dt_vig_inic": "10/04/2023",
+        "dt_vig_final": "10/04/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 145,
+        "id_siger_cliente": 7,
+        "dt_inic_cont": "05/05/2023",
+        "dt_vig_inic": "12/04/2023",
+        "dt_vig_final": "11/04/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 146,
+        "id_siger_cliente": 1591,
+        "dt_inic_cont": "11/03/2022",
+        "dt_vig_inic": "25/10/2019",
+        "dt_vig_final": "24/10/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 146,
+        "id_siger_cliente": 4347,
+        "dt_inic_cont": "10/05/2023",
+        "dt_vig_inic": "01/04/2023",
+        "dt_vig_final": "05/04/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 147,
+        "id_siger_cliente": 531,
+        "dt_inic_cont": "15/05/2023",
+        "dt_vig_inic": "01/01/2023",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 148,
+        "id_siger_cliente": 137,
+        "dt_inic_cont": "16/03/2022",
+        "dt_vig_inic": "20/03/2020",
+        "dt_vig_final": "20/03/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 149,
+        "id_siger_cliente": 137,
+        "dt_inic_cont": "16/03/2022",
+        "dt_vig_inic": "22/09/2020",
+        "dt_vig_final": "21/09/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 149,
+        "id_siger_cliente": 311,
+        "dt_inic_cont": "02/06/2023",
+        "dt_vig_inic": "01/05/2023",
+        "dt_vig_final": "04/05/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 150,
+        "id_siger_cliente": 1100,
+        "dt_inic_cont": "16/03/2022",
+        "dt_vig_inic": "11/09/2020",
+        "dt_vig_final": "15/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 150,
+        "id_siger_cliente": 3653,
+        "dt_inic_cont": "05/06/2023",
+        "dt_vig_inic": "09/06/2023",
+        "dt_vig_final": "19/06/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 151,
+        "id_siger_cliente": 137,
+        "dt_inic_cont": "05/04/2022",
+        "dt_vig_inic": "01/03/2022",
+        "dt_vig_final": "06/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 151,
+        "id_siger_cliente": 277,
+        "dt_inic_cont": "20/06/2023",
+        "dt_vig_inic": "15/06/2023",
+        "dt_vig_final": "21/06/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 154,
+        "id_siger_cliente": 4476,
+        "dt_inic_cont": "29/06/2023",
+        "dt_vig_inic": "10/07/2023",
+        "dt_vig_final": "10/07/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 154,
+        "id_siger_cliente": 500951,
+        "dt_inic_cont": "29/08/2022",
+        "dt_vig_inic": "29/08/2022",
+        "dt_vig_final": "29/08/2023",
+        "deletado": false
+    },
+    {
+        "id_contrato": 155,
+        "id_siger_cliente": 501033,
+        "dt_inic_cont": "29/11/2022",
+        "dt_vig_inic": "28/11/2022",
+        "dt_vig_final": "29/11/2023",
+        "deletado": false
+    },
+    {
+        "id_contrato": 156,
+        "id_siger_cliente": 501085,
+        "dt_inic_cont": "28/01/2023",
+        "dt_vig_inic": "28/01/2023",
+        "dt_vig_final": "28/01/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 157,
+        "id_siger_cliente": 997,
+        "dt_inic_cont": "11/07/2023",
+        "dt_vig_inic": "13/06/2023",
+        "dt_vig_final": "13/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 158,
+        "id_siger_cliente": 4546,
+        "dt_inic_cont": "01/08/2023",
+        "dt_vig_inic": "15/07/2023",
+        "dt_vig_final": "01/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 158,
+        "id_siger_cliente": 500835,
+        "dt_inic_cont": "06/03/2023",
+        "dt_vig_inic": "07/04/2022",
+        "dt_vig_final": "06/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 161,
+        "id_siger_cliente": 337,
+        "dt_inic_cont": "28/11/2023",
+        "dt_vig_inic": "10/04/2024",
+        "dt_vig_final": "01/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 162,
+        "id_siger_cliente": 293,
+        "dt_inic_cont": "07/08/2023",
+        "dt_vig_inic": "14/08/2023",
+        "dt_vig_final": "13/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 162,
+        "id_siger_cliente": 4972,
+        "dt_inic_cont": "01/02/2024",
+        "dt_vig_inic": "15/02/2024",
+        "dt_vig_final": "15/02/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 164,
+        "id_siger_cliente": 3838,
+        "dt_inic_cont": "10/08/2023",
+        "dt_vig_inic": "01/11/2022",
+        "dt_vig_final": "31/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 164,
+        "id_siger_cliente": 4858,
+        "dt_inic_cont": "08/05/2024",
+        "dt_vig_inic": "29/04/2024",
+        "dt_vig_final": "28/04/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 166,
+        "id_siger_cliente": 2572,
+        "dt_inic_cont": "21/08/2023",
+        "dt_vig_inic": "31/08/2023",
+        "dt_vig_final": "30/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 167,
+        "id_siger_cliente": 4631,
+        "dt_inic_cont": "22/08/2023",
+        "dt_vig_inic": "31/08/2023",
+        "dt_vig_final": "30/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 168,
+        "id_siger_cliente": 59,
+        "dt_inic_cont": "22/08/2023",
+        "dt_vig_inic": "31/08/2023",
+        "dt_vig_final": "30/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 169,
+        "id_siger_cliente": 4630,
+        "dt_inic_cont": "22/08/2023",
+        "dt_vig_inic": "29/08/2023",
+        "dt_vig_final": "28/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 170,
+        "id_siger_cliente": 3601,
+        "dt_inic_cont": "22/08/2023",
+        "dt_vig_inic": "31/08/2023",
+        "dt_vig_final": "30/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 171,
+        "id_siger_cliente": 3821,
+        "dt_inic_cont": "22/08/2023",
+        "dt_vig_inic": "28/08/2023",
+        "dt_vig_final": "27/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 172,
+        "id_siger_cliente": 3653,
+        "dt_inic_cont": "29/08/2023",
+        "dt_vig_inic": "21/08/2023",
+        "dt_vig_final": "20/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 173,
+        "id_siger_cliente": 4563,
+        "dt_inic_cont": "04/09/2023",
+        "dt_vig_inic": "08/08/2023",
+        "dt_vig_final": "08/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 174,
+        "id_siger_cliente": 414,
+        "dt_inic_cont": "04/09/2023",
+        "dt_vig_inic": "25/09/2023",
+        "dt_vig_final": "25/09/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 175,
+        "id_siger_cliente": 2230,
+        "dt_inic_cont": "13/09/2023",
+        "dt_vig_inic": "15/09/2023",
+        "dt_vig_final": "20/09/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 176,
+        "id_siger_cliente": 4686,
+        "dt_inic_cont": "14/09/2023",
+        "dt_vig_inic": "14/09/2023",
+        "dt_vig_final": "01/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 177,
+        "id_siger_cliente": 7,
+        "dt_inic_cont": "02/10/2023",
+        "dt_vig_inic": "01/09/2023",
+        "dt_vig_final": "10/09/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 178,
+        "id_siger_cliente": 4679,
+        "dt_inic_cont": "02/10/2023",
+        "dt_vig_inic": "01/09/2023",
+        "dt_vig_final": "14/09/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 180,
+        "id_siger_cliente": 1541,
+        "dt_inic_cont": "13/10/2023",
+        "dt_vig_inic": "13/10/2023",
+        "dt_vig_final": "31/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 181,
+        "id_siger_cliente": 984,
+        "dt_inic_cont": "14/10/2023",
+        "dt_vig_inic": "10/09/2023",
+        "dt_vig_final": "21/09/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 182,
+        "id_siger_cliente": 4720,
+        "dt_inic_cont": "18/10/2023",
+        "dt_vig_inic": "15/10/2023",
+        "dt_vig_final": "13/02/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 183,
+        "id_siger_cliente": 1027,
+        "dt_inic_cont": "30/10/2023",
+        "dt_vig_inic": "03/11/2023",
+        "dt_vig_final": "03/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 186,
+        "id_siger_cliente": 2493,
+        "dt_inic_cont": "06/11/2023",
+        "dt_vig_inic": "01/10/2023",
+        "dt_vig_final": "09/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 187,
+        "id_siger_cliente": 4810,
+        "dt_inic_cont": "07/11/2023",
+        "dt_vig_inic": "31/10/2023",
+        "dt_vig_final": "30/10/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 188,
+        "id_siger_cliente": 7,
+        "dt_inic_cont": "09/11/2023",
+        "dt_vig_inic": "13/10/2023",
+        "dt_vig_final": "12/10/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 189,
+        "id_siger_cliente": 407,
+        "dt_inic_cont": "09/11/2023",
+        "dt_vig_inic": "10/10/2023",
+        "dt_vig_final": "09/10/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 190,
+        "id_siger_cliente": 4694,
+        "dt_inic_cont": "10/11/2023",
+        "dt_vig_inic": "19/10/2023",
+        "dt_vig_final": "18/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 191,
+        "id_siger_cliente": 2993,
+        "dt_inic_cont": "30/11/2023",
+        "dt_vig_inic": "30/11/2023",
+        "dt_vig_final": "30/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 192,
+        "id_siger_cliente": 3653,
+        "dt_inic_cont": "01/12/2023",
+        "dt_vig_inic": "03/11/2023",
+        "dt_vig_final": "02/11/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 194,
+        "id_siger_cliente": 357,
+        "dt_inic_cont": "06/12/2023",
+        "dt_vig_inic": "15/11/2023",
+        "dt_vig_final": "17/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 195,
+        "id_siger_cliente": 3325,
+        "dt_inic_cont": "06/12/2023",
+        "dt_vig_inic": "24/11/2023",
+        "dt_vig_final": "24/12/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 196,
+        "id_siger_cliente": 2314,
+        "dt_inic_cont": "11/12/2023",
+        "dt_vig_inic": "11/12/2023",
+        "dt_vig_final": "11/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 197,
+        "id_siger_cliente": 941,
+        "dt_inic_cont": "11/01/2024",
+        "dt_vig_inic": "18/12/2023",
+        "dt_vig_final": "17/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 198,
+        "id_siger_cliente": 4915,
+        "dt_inic_cont": "11/01/2024",
+        "dt_vig_inic": "14/12/2023",
+        "dt_vig_final": "13/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 199,
+        "id_siger_cliente": 3725,
+        "dt_inic_cont": "15/01/2024",
+        "dt_vig_inic": "12/12/2023",
+        "dt_vig_final": "12/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 200,
+        "id_siger_cliente": 368,
+        "dt_inic_cont": "29/01/2024",
+        "dt_vig_inic": "01/02/2024",
+        "dt_vig_final": "31/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 201,
+        "id_siger_cliente": 188,
+        "dt_inic_cont": "01/02/2024",
+        "dt_vig_inic": "01/02/2024",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 202,
+        "id_siger_cliente": 5003,
+        "dt_inic_cont": "01/02/2024",
+        "dt_vig_inic": "01/02/2024",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 203,
+        "id_siger_cliente": 5004,
+        "dt_inic_cont": "01/02/2024",
+        "dt_vig_inic": "01/02/2024",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 204,
+        "id_siger_cliente": 122,
+        "dt_inic_cont": "02/02/2024",
+        "dt_vig_inic": "01/01/2018",
+        "dt_vig_final": "01/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 205,
+        "id_siger_cliente": 4799,
+        "dt_inic_cont": "02/02/2024",
+        "dt_vig_inic": "08/01/2024",
+        "dt_vig_final": "07/01/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 206,
+        "id_siger_cliente": 4818,
+        "dt_inic_cont": "02/02/2024",
+        "dt_vig_inic": "08/01/2024",
+        "dt_vig_final": "07/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 207,
+        "id_siger_cliente": 4951,
+        "dt_inic_cont": "09/02/2024",
+        "dt_vig_inic": "04/01/2024",
+        "dt_vig_final": "03/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 209,
+        "id_siger_cliente": 1033,
+        "dt_inic_cont": "14/02/2024",
+        "dt_vig_inic": "01/03/2024",
+        "dt_vig_final": "13/02/2029",
+        "deletado": false
+    },
+    {
+        "id_contrato": 211,
+        "id_siger_cliente": 4923,
+        "dt_inic_cont": "07/03/2024",
+        "dt_vig_inic": "15/03/2024",
+        "dt_vig_final": "15/03/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 212,
+        "id_siger_cliente": 4873,
+        "dt_inic_cont": "14/03/2024",
+        "dt_vig_inic": "01/02/2024",
+        "dt_vig_final": "28/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 213,
+        "id_siger_cliente": 5159,
+        "dt_inic_cont": "21/03/2024",
+        "dt_vig_inic": "21/03/2024",
+        "dt_vig_final": "20/03/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 214,
+        "id_siger_cliente": 7,
+        "dt_inic_cont": "01/04/2024",
+        "dt_vig_inic": "01/03/2024",
+        "dt_vig_final": "28/07/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 215,
+        "id_siger_cliente": 3678,
+        "dt_inic_cont": "30/04/2024",
+        "dt_vig_inic": "30/04/2024",
+        "dt_vig_final": "30/04/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 987,
+        "id_siger_cliente": 4901,
+        "dt_inic_cont": "15/12/2023",
+        "dt_vig_inic": "15/01/2024",
+        "dt_vig_final": "15/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1001,
+        "id_siger_cliente": 147,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "20/07/2019",
+        "dt_vig_final": "19/07/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1002,
+        "id_siger_cliente": 288,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "12/11/2018",
+        "dt_vig_final": "15/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1003,
+        "id_siger_cliente": 176,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "02/08/2018",
+        "dt_vig_final": "01/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1004,
+        "id_siger_cliente": 225,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "10/04/2019",
+        "dt_vig_final": "10/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1005,
+        "id_siger_cliente": 236,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/01/2018",
+        "dt_vig_final": "14/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1006,
+        "id_siger_cliente": 387,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/03/2019",
+        "dt_vig_final": "28/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1007,
+        "id_siger_cliente": 11,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "27/10/2016",
+        "dt_vig_final": "26/10/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1010,
+        "id_siger_cliente": 134,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "10/08/2016",
+        "dt_vig_final": "10/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1011,
+        "id_siger_cliente": 384,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "20/12/2018",
+        "dt_vig_final": "20/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1013,
+        "id_siger_cliente": 366,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "26/07/2016",
+        "dt_vig_final": "26/07/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1014,
+        "id_siger_cliente": 419,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "05/08/2014",
+        "dt_vig_final": "05/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1015,
+        "id_siger_cliente": 120,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "08/02/2019",
+        "dt_vig_final": "08/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1017,
+        "id_siger_cliente": 245,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "06/02/2015",
+        "dt_vig_final": "06/02/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1018,
+        "id_siger_cliente": 44,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "14/01/2014",
+        "dt_vig_final": "13/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1019,
+        "id_siger_cliente": 320,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "19/09/2014",
+        "dt_vig_final": "28/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1023,
+        "id_siger_cliente": 115,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "21/08/2017",
+        "dt_vig_final": "21/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1024,
+        "id_siger_cliente": 143,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "31/12/2015",
+        "dt_vig_final": "31/12/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1025,
+        "id_siger_cliente": 280,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "21/08/2013",
+        "dt_vig_final": "21/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1026,
+        "id_siger_cliente": 123,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "25/07/2017",
+        "dt_vig_final": "24/07/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1027,
+        "id_siger_cliente": 414,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "02/02/2015",
+        "dt_vig_final": "20/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1029,
+        "id_siger_cliente": 298,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "22/08/2018",
+        "dt_vig_final": "21/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1030,
+        "id_siger_cliente": 162,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "20/06/2017",
+        "dt_vig_final": "30/06/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1031,
+        "id_siger_cliente": 383,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "25/01/2017",
+        "dt_vig_final": "25/02/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1033,
+        "id_siger_cliente": 103,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/05/2019",
+        "dt_vig_final": "30/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1034,
+        "id_siger_cliente": 1213,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "28/06/2019",
+        "dt_vig_final": "27/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1035,
+        "id_siger_cliente": 164,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/06/2017",
+        "dt_vig_final": "31/05/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1038,
+        "id_siger_cliente": 397,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "28/02/2019",
+        "dt_vig_final": "04/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1039,
+        "id_siger_cliente": 397,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "25/04/2016",
+        "dt_vig_final": "04/05/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1040,
+        "id_siger_cliente": 337,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "04/01/2018",
+        "dt_vig_final": "03/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1042,
+        "id_siger_cliente": 1184,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "21/06/2019",
+        "dt_vig_final": "20/06/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1043,
+        "id_siger_cliente": 900035,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/04/2019",
+        "dt_vig_final": "14/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1044,
+        "id_siger_cliente": 1042,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "07/05/2019",
+        "dt_vig_final": "06/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1045,
+        "id_siger_cliente": 1186,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/07/2019",
+        "dt_vig_final": "30/06/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1047,
+        "id_siger_cliente": 180,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "07/12/2017",
+        "dt_vig_final": "06/12/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1048,
+        "id_siger_cliente": 1044,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "10/05/2019",
+        "dt_vig_final": "09/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1052,
+        "id_siger_cliente": 1143,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/03/2019",
+        "dt_vig_final": "04/02/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1053,
+        "id_siger_cliente": 86,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/09/2019",
+        "dt_vig_final": "31/08/2022",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1055,
+        "id_siger_cliente": 157,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "09/10/2017",
+        "dt_vig_final": "07/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1058,
+        "id_siger_cliente": 222,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "13/07/2017",
+        "dt_vig_final": "12/07/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1060,
+        "id_siger_cliente": 372,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/11/2019",
+        "dt_vig_final": "31/10/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1061,
+        "id_siger_cliente": 176,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/11/2019",
+        "dt_vig_final": "31/10/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1067,
+        "id_siger_cliente": 50,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "25/10/2019",
+        "dt_vig_final": "24/10/2020",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1068,
+        "id_siger_cliente": 1699,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "10/12/2019",
+        "dt_vig_final": "31/10/2022",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1069,
+        "id_siger_cliente": 1721,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "11/12/2019",
+        "dt_vig_final": "11/12/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1070,
+        "id_siger_cliente": 1042,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/12/2019",
+        "dt_vig_final": "01/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1072,
+        "id_siger_cliente": 1196,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "09/12/2019",
+        "dt_vig_final": "08/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1073,
+        "id_siger_cliente": 1421,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/12/2019",
+        "dt_vig_final": "01/12/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1076,
+        "id_siger_cliente": 1757,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "18/12/2019",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1078,
+        "id_siger_cliente": 1196,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/12/2019",
+        "dt_vig_final": "30/08/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1086,
+        "id_siger_cliente": 2011,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/06/2020",
+        "dt_vig_final": "31/05/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1092,
+        "id_siger_cliente": 2092,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "14/07/2020",
+        "dt_vig_final": "14/07/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1093,
+        "id_siger_cliente": 160,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "02/07/2020",
+        "dt_vig_final": "00/00/0000",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1096,
+        "id_siger_cliente": 2153,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/08/2020",
+        "dt_vig_final": "19/08/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1098,
+        "id_siger_cliente": 2188,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "10/09/2020",
+        "dt_vig_final": "15/04/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1100,
+        "id_siger_cliente": 2179,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "08/09/2020",
+        "dt_vig_final": "08/09/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1102,
+        "id_siger_cliente": 1236,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "26/10/2020",
+        "dt_vig_final": "22/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1103,
+        "id_siger_cliente": 2302,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "30/10/2020",
+        "dt_vig_final": "26/10/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1107,
+        "id_siger_cliente": 2365,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/05/2021",
+        "dt_vig_final": "05/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1108,
+        "id_siger_cliente": 2314,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/11/2020",
+        "dt_vig_final": "09/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1112,
+        "id_siger_cliente": 411,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/01/2021",
+        "dt_vig_final": "14/01/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1114,
+        "id_siger_cliente": 2566,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/02/2021",
+        "dt_vig_final": "31/01/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1115,
+        "id_siger_cliente": 246,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/03/2021",
+        "dt_vig_final": "21/03/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1117,
+        "id_siger_cliente": 2230,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/04/2021",
+        "dt_vig_final": "31/03/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1118,
+        "id_siger_cliente": 2100,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/05/2021",
+        "dt_vig_final": "03/12/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1121,
+        "id_siger_cliente": 2773,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/05/2021",
+        "dt_vig_final": "30/04/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1124,
+        "id_siger_cliente": 2864,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "30/06/2021",
+        "dt_vig_final": "30/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1125,
+        "id_siger_cliente": 103,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/06/2021",
+        "dt_vig_final": "07/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1126,
+        "id_siger_cliente": 159,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/06/2021",
+        "dt_vig_final": "18/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1127,
+        "id_siger_cliente": 1436,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/06/2021",
+        "dt_vig_final": "31/05/2027",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1128,
+        "id_siger_cliente": 2951,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/07/2021",
+        "dt_vig_final": "30/06/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1130,
+        "id_siger_cliente": 2899,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/07/2021",
+        "dt_vig_final": "22/07/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1131,
+        "id_siger_cliente": 1699,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "16/07/2021",
+        "dt_vig_final": "15/07/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1133,
+        "id_siger_cliente": 920,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/09/2021",
+        "dt_vig_final": "31/08/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1135,
+        "id_siger_cliente": 3123,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "01/10/2021",
+        "dt_vig_final": "04/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1138,
+        "id_siger_cliente": 9,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/10/2021",
+        "dt_vig_final": "29/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1139,
+        "id_siger_cliente": 3056,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "15/11/2021",
+        "dt_vig_final": "14/11/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1141,
+        "id_siger_cliente": 594,
+        "dt_inic_cont": "09/03/2022",
+        "dt_vig_inic": "30/11/2021",
+        "dt_vig_final": "29/11/2025",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1145,
+        "id_siger_cliente": 594,
+        "dt_inic_cont": "16/10/2023",
+        "dt_vig_inic": "15/10/2023",
+        "dt_vig_final": "24/10/2024",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1146,
+        "id_siger_cliente": 2489,
+        "dt_inic_cont": "09/11/2023",
+        "dt_vig_inic": "09/11/2023",
+        "dt_vig_final": "08/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1147,
+        "id_siger_cliente": 4478,
+        "dt_inic_cont": "22/11/2023",
+        "dt_vig_inic": "23/11/2023",
+        "dt_vig_final": "22/11/2026",
+        "deletado": false
+    },
+    {
+        "id_contrato": 1148,
+        "id_siger_cliente": 4785,
+        "dt_inic_cont": "09/02/2024",
+        "dt_vig_inic": "29/02/2024",
+        "dt_vig_final": "09/02/2028",
+        "deletado": false
+    }
+]
