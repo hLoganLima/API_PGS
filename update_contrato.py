@@ -1,6 +1,6 @@
 import os
 import json
-import time
+from datetime import datetime
 from supabase import create_client
 
 def connect_to_supabase():
@@ -31,9 +31,26 @@ def load_update_json(file_name):
     with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
 
-def update_cliente_table(supabase_client, update_data):
+def format_date_fields(record, date_fields):
     """
-    Atualiza a tabela 'cliente' do Supabase para cada registro individualmente.
+    Converte campos de data em um registro para o formato ISO 8601 (YYYY-MM-DD).
+    """
+    for field in date_fields:
+        if field in record and record[field]:
+            try:
+                if record[field] == "00/00/0000":
+                    record[field] = None  # Define como None para usar o default do Supabase
+                else:
+                    # Assumindo que as datas estão no formato DD/MM/YYYY
+                    record[field] = datetime.strptime(record[field], "%d/%m/%Y").strftime("%Y-%m-%d")
+            except ValueError:
+                print(f"[ERRO] Data inválida no campo {field}: {record[field]}")
+                record[field] = None  # Define como None caso a data seja inválida
+    return record
+
+def update_contrato_table(supabase_client, update_data):
+    """
+    Atualiza a tabela 'contrato' do Supabase para cada registro individualmente.
     Faz uma pausa de 1 segundo entre cada requisição para evitar sobrecarga.
     """
     errors = []
@@ -42,50 +59,41 @@ def update_cliente_table(supabase_client, update_data):
 
     for index, record in enumerate(update_data, start=1):
         try:
-            # Certifique-se de que 'id_siger_cliente' está presente no registro
-            if "id_siger_cliente" not in record:
-                raise KeyError("Campo 'id_siger_cliente' ausente no registro.")
+            # Certifique-se de que 'id_contrato' está presente no registro
+            if "id_contrato" not in record:
+                raise KeyError("Campo 'id_contrato' ausente no registro.")
 
-            # Enviar requisição de UPDATE usando `from_` em vez de `table`
+            # Formatar campos de data
+            date_fields = ["dt_inic_cont", "dt_vig_inic", "dt_vig_final"]
+            record = format_date_fields(record, date_fields)
+
+            # Enviar requisição de UPDATE
             response = (
                 supabase_client
-                .from_("cliente")  # Alteração aqui
+                .from_("contrato")
                 .update(record)
-                .eq("id_siger_cliente", record["id_siger_cliente"])
+                .eq("id_contrato", record["id_contrato"])
                 .execute()
             )
 
             # Verificar se houve erro
-            # Acessar o erro corretamente dependendo da estrutura da resposta
-            # Tente acessar `response.error`, se não existir, use `response.get("error")` ou `response.json().get("error")`
-            error = getattr(response, 'error', None)
-            if error is None:
-                # Tente acessar via dicionário se 'error' não for um atributo
-                try:
-                    response_json = response.json()
-                    error = response_json.get("error")
-                except AttributeError:
-
-                    error = None
-
-            if error:
-                # Supondo que `error` seja um dicionário com uma mensagem
-                error_message = error.get("message") if isinstance(error, dict) else str(error)
+            if hasattr(response, 'error') and response.error:
+                error_message = response.error.get("message", "Erro desconhecido")
                 errors.append({"record": record, "error": error_message})
-                print(f"[ERRO] Registro {record['id_siger_cliente']}: {error_message}")
+                print(f"[ERRO] Registro {record['id_contrato']}: {error_message}")
+            elif isinstance(response, dict) and "error" in response:
+                error_message = response["error"].get("message", "Erro desconhecido")
+                errors.append({"record": record, "error": error_message})
+                print(f"[ERRO] Registro {record['id_contrato']}: {error_message}")
             else:
-                # Se não houve erro, consideramos sucesso
-                print(f"[OK] Registro {record['id_siger_cliente']} atualizado ({index}/{total_records}).")
-
-            # Pausa de 1 segundo entre requisições
-            #time.sleep(1)
+                print(f"[OK] Registro {record['id_contrato']} atualizado ({index}/{total_records}).")
 
         except KeyError as ke:
             errors.append({"record": record, "error": str(ke)})
             print(f"[CHAVE FALTANDO] {ke} - Registro: {record}")
         except Exception as e:
             errors.append({"record": record, "error": str(e)})
-            print(f"[EXCEPTION] Erro ao atualizar registro {record.get('id_siger_cliente', 'N/A')}: {e}")
+            print(f"[EXCEPTION] Erro ao atualizar registro {record.get('id_contrato', 'N/A')}: {e}")
 
     return errors
 
@@ -93,11 +101,11 @@ def main():
     # Conecta ao Supabase
     supabase_client = connect_to_supabase()
 
-    # Carrega o JSON de atualização (por exemplo "cliente_update.json")
-    update_data = load_update_json("cliente_update.json")
+    # Carrega o JSON de atualização (por exemplo "contrato_update.json")
+    update_data = load_update_json("contrato_update.json")
 
     # Atualiza os registros no Supabase, um por vez
-    errors = update_cliente_table(supabase_client, update_data)
+    errors = update_contrato_table(supabase_client, update_data)
 
     # Exibe o resumo
     print(f"\nProcesso concluído. Total de registros processados: {len(update_data)}")
