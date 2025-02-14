@@ -1,83 +1,88 @@
-import subprocess
-import os
+import threading
+import runpy
 
-def execute_script(script_name):
-    """
-    Executa um script Python como subprocesso.
-    Args:
-        script_name (str): Nome do script Python a ser executado.
-    """
-    try:
-        print(f"Iniciando {script_name}...")
-        subprocess.run(["python", script_name], check=True)
-        print(f"{script_name} concluído com sucesso!\n")
-    except subprocess.CalledProcessError as e:
-        print(f"Erro ao executar {script_name}: {e}\n")
+# Importa os módulos dos scripts.
+# Certifique-se de que os módulos estejam no mesmo diretório ou no PYTHONPATH.
+import organizador
+import cliente_api
+import contrato_api
+import produto_api
+import comparador
+import update_cliente
+import update_contrato
+import update_produto
+import insert_cliente
+import insert_contrato
+import insert_produto
 
-def clean_data_folder():
+
+def run_module(module):
     """
-    Remove todos os arquivos JSON da pasta Data.
+    Executa o módulo de duas maneiras:
+      - Se o módulo possuir uma função main(), ela é chamada.
+      - Caso contrário, utiliza runpy para executar o módulo como se ele fosse o script principal,
+        rodando o bloco 'if __name__ == "__main__":'.
     """
-    data_folder = os.path.join(os.getcwd(), "Data")
-    if os.path.exists(data_folder):
-        for file_name in os.listdir(data_folder):
-            if file_name.endswith(".json"):
-                file_path = os.path.join(data_folder, file_name)
-                try:
-                    os.remove(file_path)
-                    print(f"Removido: {file_path}")
-                except Exception as e:
-                    print(f"Erro ao remover {file_path}: {e}")
+    if hasattr(module, "main"):
+        try:
+            print(f"Iniciando {module.__name__}.main()")
+            module.main()
+            print(f"Finalizado {module.__name__}.main()")
+        except Exception as e:
+            print(f"Ocorreu um erro ao executar {module.__name__}.main(): {e}")
     else:
-        print("Pasta Data não encontrada.")
+        print(f"O módulo {module.__name__} não possui uma função main(); executando via runpy.run_module()")
+        try:
+            runpy.run_module(module.__name__, run_name="__main__")
+            print(f"Finalizado {module.__name__} (via runpy)")
+        except Exception as e:
+            print(f"Ocorreu um erro ao executar {module.__name__} (via runpy): {e}")
+
+
+def run_group_concurrently(modules):
+    """
+    Recebe uma lista de módulos e os executa em paralelo utilizando threads.
+    Aguarda a finalização de todas as threads antes de retornar.
+    """
+    threads = []
+    for mod in modules:
+        thread = threading.Thread(target=run_module, args=(mod,))
+        thread.start()
+        threads.append(thread)
+    # Aguarda todas as threads terminarem
+    for thread in threads:
+        thread.join()
+
 
 def main():
-    # Etapa 1: Executar os scripts de API e organizador
-    api_and_organizer_scripts = [
-        "cliente_api.py",
-        "contrato_api.py",
-        "produto_api.py",
-        "organizador.py"
+    # Grupo 1: Executa os módulos em paralelo.
+    grupo1 = [
+        organizador,
+        cliente_api,
+        contrato_api,
+        produto_api
     ]
+    print("=== Executando Grupo 1 (execução paralela) ===")
+    run_group_concurrently(grupo1)
 
-    print("Etapa 1: Executando scripts de API e organizador...")
-    processes = [subprocess.Popen(["python", script]) for script in api_and_organizer_scripts]
-    for process in processes:
-        process.wait()
+    # Grupo 2: Executa o comparador de forma sequencial.
+    print("\n=== Executando comparador (execução sequencial) ===")
+    run_module(comparador)
 
-    # Etapa 2: Executar o comparador
-    print("\nEtapa 2: Executando o comparador...")
-    execute_script("comparador.py")
-
-    # Etapa 3: Executar os updates
-    update_scripts = [
-        "update_cliente.py",
-        "update_contrato.py",
-        "update_produto.py"
+    # Grupo 3: Executa os módulos de update/insert em paralelo.
+    grupo3 = [
+        update_cliente,
+        update_contrato,
+        update_produto,
+        insert_cliente,
+        insert_contrato,
+        insert_produto
     ]
+    print("\n=== Executando Grupo 3 (execução paralela) ===")
+    run_group_concurrently(grupo3)
 
-    print("\nEtapa 3: Executando updates...")
-    processes = [subprocess.Popen(["python", script]) for script in update_scripts]
-    for process in processes:
-        process.wait()
+    print("\nTodas as execuções foram finalizadas.")
 
-    # Etapa 4: Executar os inserts
-    insert_scripts = [
-        "insert_cliente.py",
-        "insert_contrato.py",
-        "insert_produto.py"
-    ]
-
-    print("\nEtapa 4: Executando inserts...")
-    processes = [subprocess.Popen(["python", script]) for script in insert_scripts]
-    for process in processes:
-        process.wait()
-
-    # Etapa 5: Limpar a pasta Data
-    print("\nEtapa 5: Limpando a pasta Data...")
-    clean_data_folder()
-
-    print("\nProcesso completo! Todos os scripts foram executados com sucesso.")
 
 if __name__ == "__main__":
     main()

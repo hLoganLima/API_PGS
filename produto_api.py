@@ -1,18 +1,27 @@
 import os
 from supabase import create_client, Client
 import json
+from dotenv import load_dotenv
 
-supabase_url = "https://yrgxpdcqlkypnxsfozrz.supabase.co"
-supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlyZ3hwZGNxbGt5cG54c2ZvenJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyMTQxNTAsImV4cCI6MjA1MDc5MDE1MH0.tKTiR2771WIuzVgmbRqE4x-2O6h86JA5Tc_Z3ICmVbg"
+# Carregar variáveis do .env
+load_dotenv()
 
+# Obtendo as credenciais do Supabase do arquivo .env
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
-def fetch_produto_data_row_by_row(supabase_url, supabase_key):
+def fetch_produto_data_row_by_row():
     """
     Busca registros da tabela 'produto' do Supabase um por um e os salva em um JSON na pasta Data.
     """
+    # Verifica se as credenciais foram carregadas corretamente
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("Erro: As credenciais do Supabase não foram carregadas corretamente.")
+        return None
+
     # Conecta ao Supabase
-    supabase_client: Client = create_client(supabase_url, supabase_key)
-    print(f"Conectado ao Supabase: {supabase_url}")
+    supabase_client: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+    print(f"Conectado ao Supabase: {SUPABASE_URL}")
 
     # Inicializa a lista para armazenar os registros
     all_data = []
@@ -20,8 +29,8 @@ def fetch_produto_data_row_by_row(supabase_url, supabase_key):
     # Contador para buscar registros
     row_index = 0
     while True:
-        # Busca um registro por vez da tabela 'produto'
         try:
+            # Busca um registro por vez da tabela 'produto'
             response = supabase_client.table("produto").select("*").range(row_index, row_index).execute()
 
             # Verifica se o registro existe
@@ -38,8 +47,8 @@ def fetch_produto_data_row_by_row(supabase_url, supabase_key):
 
     # Salva todos os dados em um JSON na pasta Data
     if all_data:
-        # Definir o diretório 'Data' onde os arquivos serão salvos
         data_dir = os.path.join(os.getcwd(), 'Data')
+
         # Cria o diretório 'Data' caso não exista
         if not os.path.exists(data_dir):
             os.makedirs(data_dir)
@@ -50,6 +59,7 @@ def fetch_produto_data_row_by_row(supabase_url, supabase_key):
         # Salva os dados em um arquivo JSON na pasta 'Data'
         with open(json_path, 'w') as temp_file:
             json.dump(all_data, temp_file, indent=4)
+
         print(f"Todos os dados da tabela 'produto' salvos em: {json_path}")
         return json_path
     else:
@@ -59,9 +69,8 @@ def fetch_produto_data_row_by_row(supabase_url, supabase_key):
 
 # Teste: Lendo dados da tabela 'produto' registro por registro e salvando no JSON
 if __name__ == "__main__":
-    json_file_path = fetch_produto_data_row_by_row(supabase_url, supabase_key)
+    json_file_path = fetch_produto_data_row_by_row()
     if json_file_path:
-        # Lê o JSON salvo na pasta 'Data' para exibição
         with open(json_file_path, "r") as file:
             data = json.load(file)
             print("Dados lidos do JSON:")

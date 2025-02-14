@@ -1,8 +1,13 @@
-import pandas as pd
-import json
-import tempfile
 import os
+import json
+import pandas as pd
+from dotenv import load_dotenv
 
+# Carregar variáveis do .env
+load_dotenv()
+
+# Obtendo o caminho do arquivo CSV do arquivo .env
+CSV_FILE_PATH = os.getenv("CSV_FILE_PATH")
 
 def load_csv(file_path, delimiter=";"):
     """Carrega um arquivo CSV."""
@@ -14,7 +19,6 @@ def load_csv(file_path, delimiter=";"):
     except Exception as e:
         print(f"Erro ao carregar CSV: {e}")
         exit(1)
-
 
 def save_to_temp_json(dataframe, prefix, output_dir="Data/"):
     """
@@ -33,7 +37,6 @@ def save_to_temp_json(dataframe, prefix, output_dir="Data/"):
     except Exception as e:
         print(f"Erro ao salvar JSON: {e}")
         exit(1)
-
 
 def process_csv(input_csv_path):
     """
@@ -96,10 +99,12 @@ def process_csv(input_csv_path):
 
     return cliente_json_path, contrato_json_path, produto_json_path
 
-
 def main():
-    input_csv_path = "C:/Users/Humberto/Downloads/contratos_pgs.csv"
-    cliente_json, contrato_json, produto_json = process_csv(input_csv_path)
+    if not CSV_FILE_PATH:
+        print("Erro: O caminho do arquivo CSV não foi configurado no .env.")
+        exit(1)
+
+    cliente_json, contrato_json, produto_json = process_csv(CSV_FILE_PATH)
 
     print(f"Dados de cliente salvos em: {cliente_json}")
     print(f"Dados de contrato salvos em: {contrato_json}")
@@ -115,7 +120,6 @@ def main():
     # for json_file in [cliente_json, contrato_json, produto_json]:
     #    os.remove(json_file)
     #    print(f"Arquivo temporário removido: {json_file}")
-
 
 if __name__ == "__main__":
     main()

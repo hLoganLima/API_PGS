@@ -2,13 +2,22 @@ import os
 import json
 import time
 from supabase import create_client
+from dotenv import load_dotenv
+
+# Carregar variáveis do .env
+load_dotenv()
+
+# Obtendo as credenciais do Supabase do arquivo .env
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 def connect_to_supabase():
-    """Conecta ao Supabase usando as credenciais fornecidas."""
-    supabase_url = "https://yrgxpdcqlkypnxsfozrz.supabase.co"
-    supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlyZ3hwZGNxbGt5cG54c2ZvenJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyMTQxNTAsImV4cCI6MjA1MDc5MDE1MH0.tKTiR2771WIuzVgmbRqE4x-2O6h86JA5Tc_Z3ICmVbg"
+    """Conecta ao Supabase usando as credenciais do .env."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("Erro: As credenciais do Supabase não foram carregadas corretamente.")
+        exit(1)
 
-    return create_client(supabase_url, supabase_key)
+    return create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def load_update_json(file_name):
     """
@@ -20,8 +29,7 @@ def load_update_json(file_name):
     Returns:
         list: Dados do arquivo JSON.
     """
-    current_dir = os.getcwd()
-    data_folder = os.path.join(current_dir, "Data")
+    data_folder = os.path.join(os.getcwd(), "Data")
     file_path = os.path.join(data_folder, file_name)
 
     if not os.path.exists(file_path):
@@ -34,7 +42,6 @@ def load_update_json(file_name):
 def update_cliente_table(supabase_client, update_data):
     """
     Atualiza a tabela 'cliente' do Supabase para cada registro individualmente.
-    Faz uma pausa de 1 segundo entre cada requisição para evitar sobrecarga.
     """
     errors = []
     total_records = len(update_data)
@@ -46,39 +53,30 @@ def update_cliente_table(supabase_client, update_data):
             if "id_siger_cliente" not in record:
                 raise KeyError("Campo 'id_siger_cliente' ausente no registro.")
 
-            # Enviar requisição de UPDATE usando `from_` em vez de `table`
+            # Enviar requisição de UPDATE
             response = (
                 supabase_client
-                .from_("cliente")  # Alteração aqui
+                .from_("cliente")
                 .update(record)
                 .eq("id_siger_cliente", record["id_siger_cliente"])
                 .execute()
             )
 
             # Verificar se houve erro
-            # Acessar o erro corretamente dependendo da estrutura da resposta
-            # Tente acessar `response.error`, se não existir, use `response.get("error")` ou `response.json().get("error")`
             error = getattr(response, 'error', None)
             if error is None:
-                # Tente acessar via dicionário se 'error' não for um atributo
                 try:
                     response_json = response.json()
                     error = response_json.get("error")
                 except AttributeError:
-
                     error = None
 
             if error:
-                # Supondo que `error` seja um dicionário com uma mensagem
                 error_message = error.get("message") if isinstance(error, dict) else str(error)
                 errors.append({"record": record, "error": error_message})
                 print(f"[ERRO] Registro {record['id_siger_cliente']}: {error_message}")
             else:
-                # Se não houve erro, consideramos sucesso
                 print(f"[OK] Registro {record['id_siger_cliente']} atualizado ({index}/{total_records}).")
-
-            # Pausa de 1 segundo entre requisições
-            #time.sleep(1)
 
         except KeyError as ke:
             errors.append({"record": record, "error": str(ke)})

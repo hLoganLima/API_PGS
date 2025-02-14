@@ -1,13 +1,22 @@
 import os
 import json
 from supabase import create_client
+from dotenv import load_dotenv
+
+# Carregar variáveis do .env
+load_dotenv()
+
+# Obtendo as credenciais do Supabase do arquivo .env
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 def connect_to_supabase():
-    """Conecta ao Supabase usando as credenciais fornecidas."""
-    supabase_url = "https://yrgxpdcqlkypnxsfozrz.supabase.co"
-    supabase_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlyZ3hwZGNxbGt5cG54c2ZvenJ6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyMTQxNTAsImV4cCI6MjA1MDc5MDE1MH0.tKTiR2771WIuzVgmbRqE4x-2O6h86JA5Tc_Z3ICmVbg"
+    """Conecta ao Supabase usando as credenciais do .env."""
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("Erro: As credenciais do Supabase não foram carregadas corretamente.")
+        exit(1)
 
-    return create_client(supabase_url, supabase_key)
+    return create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def load_insert_json(file_name):
     """
@@ -19,8 +28,7 @@ def load_insert_json(file_name):
     Returns:
         list: Dados do arquivo JSON.
     """
-    current_dir = os.getcwd()
-    data_folder = os.path.join(current_dir, "Data")
+    data_folder = os.path.join(os.getcwd(), "Data")
     file_path = os.path.join(data_folder, file_name)
 
     if not os.path.exists(file_path):
@@ -33,7 +41,6 @@ def load_insert_json(file_name):
 def insert_cliente_table(supabase_client, insert_data):
     """
     Insere novos registros na tabela 'cliente' do Supabase.
-    Faz uma pausa de 1 segundo entre cada requisição para evitar sobrecarga.
     """
     errors = []
     total_records = len(insert_data)
